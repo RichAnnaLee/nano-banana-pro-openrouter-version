@@ -87,7 +87,7 @@ Generate filenames with the pattern: `yyyy-mm-dd-hh-mm-ss-name.png`
 - If unclear, use random identifier (e.g., `x9k2`, `a7b3`)
 
 Examples:
-- Prompt "A serene Japanese garden" → `2026-03-15-16-23-05-japanese-garden.png`
+- Prompt "A serene garden" → `2026-03-15-16-23-05-garden.png`
 - Prompt "sunset over mountains" → `2026-03-15-17-30-12-sunset-mountains.png`
 - Prompt "create an image of a robot" → `2026-03-15-18-45-33-robot.png`
 - Unclear context → `2026-03-15-19-12-48-x9k2.png`
@@ -124,7 +124,7 @@ Use templates when the user is vague or needs guidance:
 
 **Generate with default model (Gemini 3.1 Flash Image Preview):**
 ```bash
-uv run ~/.openclaw/workspace/skills/nano-banana-pro/scripts/generate_image.py --prompt "A serene Japanese garden with cherry blossoms" --filename "2026-03-15-16-23-05-japanese-garden.png" --resolution 4K
+uv run ~/.openclaw/workspace/skills/nano-banana-pro/scripts/generate_image.py --prompt "A serene garden with cherry blossoms" --filename "2026-03-15-16-23-05-garden.png" --resolution 4K
 ```
 
 **Generate with different model:**
